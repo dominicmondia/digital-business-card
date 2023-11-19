@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.App {
+  width: 550px;
+  height: 870px;
+  display: block;
+  background-color: #23252C;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+card {
+  display: block;
+  margin: auto;
+  margin-top: 44px; ;
+  width: 317px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.info--photo {
+  width: 317px;
+  height: 317px;
+}
+
+info {
+  margin: auto;
+  background-color: #1A1B21;
+  justify-content: safe;
+  text-align: center;
+  border-collapse: separate;
+}
+
+.info--name {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.info--title {
+  color: #F3BF99;
+  margin: auto;
+  padding-bottom: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.info--button-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  height: 34px;
+  width: 115px;
+  border-radius: 6px;
+}
+
+.info--linkedin-btn{
+  color: white;
+  background-color: #5093E2;
+  padding-left: 16px;
+  padding-right: 0;
+}
+
+.info--linkedin-btn > img{
+  padding-right: 8px;
+}
+
+.info--email-btn {
+  color: #374151;
+  padding-left: 25px;
+}
+
+.info--email-btn > img{
+  padding-right: 8px;
+}
+
+
+about > h3{
+  color: #F5F5F5;
+  font-size: 16px;
+  margin: 33px 35px 5px;
+}
+
+about > p{
+  color: #DCDCDC;
+  font-size: 10px;
+  margin: 0px 35px;
+}
+
+
+interests > h3{
+  color: #F5F5F5;
+  font-size: 16px;
+  margin: 27px 35px 5px;
+}
+
+interests > p{
+  color: #DCDCDC;
+  font-size: 10px;
+  margin: 0px 35px;
+  padding-bottom: 24px;
+}
+
+footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 73px;
+}
